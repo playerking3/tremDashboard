@@ -1,0 +1,9 @@
+.container{
+    background-color: #2B3141;
+    border-radius: .5em;
+}
+
+.conteudoGrid{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
