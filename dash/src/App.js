@@ -1,5 +1,6 @@
 import './App.css';
 import CorrenteCard from "./Components/CorrenteCard";
+import VelocidadeCard from "./Components/VelocidadeCard";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         </div>
         <div className='mainGrid'>
             <CorrenteCard/>
+            <VelocidadeCard/>
         </div>
     </div>
   );

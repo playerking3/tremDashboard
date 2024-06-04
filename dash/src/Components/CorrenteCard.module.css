@@ -1,9 +1,27 @@
 .container{
     background-color: #2B3141;
     border-radius: .5em;
+    padding: .5em;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .conteudoGrid{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numeroGrande{
+    font-weight: bold;
+    font-size: 40pt;
+    color: #4AA299;
+    margin: 0;
 }
